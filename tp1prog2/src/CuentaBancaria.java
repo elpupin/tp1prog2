@@ -9,10 +9,10 @@ public class CuentaBancaria {
 
     public void depositarSaldo(double saldo) {
         if (saldo > 0 ) {
-            this.saldoCuenta =+ saldo;
+            this.saldoCuenta += saldo;
         }
         else {
-            System.out.println("Tenes que agregar un valor valido.")
+            System.out.println("Tenes que agregar un valor valido.");
         }
     }
 
