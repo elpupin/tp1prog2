@@ -8,4 +8,9 @@ public class Reporte {
         return "Este es el cuerpo del reporte.";
     }
 
+    public void mostrarSecciones(String... secciones) {
+        for (String seccion : secciones) {
+            System.out.println(seccion);
+        }
+    }
 }
