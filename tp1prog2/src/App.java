@@ -6,7 +6,6 @@ public class App {
 
     public static void main(String[] args) {
 
-        // Seccion 2
         Usuario usuario1 = new Usuario();
         Usuario usuario2 = new Usuario("Lucas");
         Usuario usuario3 = new Usuario("Lucas", 20);
@@ -18,7 +17,6 @@ public class App {
         reporte.mostrarSecciones("Inicio", "Desarrollo", "Final");
         reporte.mostrarSecciones();
 
-        // Seccion 3
         Documento doc1 = new Factura();
         Documento doc2 = new Recibo();
 
@@ -28,7 +26,6 @@ public class App {
         Factura factura = new Factura();
         factura.procesar(true);
 
-        // Seccion 4
         factura.exportar();
         factura.registrarAuditoria();
 
